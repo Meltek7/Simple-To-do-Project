@@ -20,22 +20,22 @@ Uygulamayı başlatmak için Motoko SDK'sını kurmanız gerekmektedir. Aşağı
 3. Proje dizinine gidin ve aşağıdaki komutu çalıştırarak uygulamayı başlatın:
 
 API
-- 1. addTodo(description: Text) : async Nat
+- addTodo(description: Text) : async Nat
 Açıklama: Yeni bir görev ekler.
 Parametre:
 description: Görev açıklaması (Text).
 Dönüş Değeri: Eklenen görevin kimliği (Nat).
-- 2. getTodos() : async [ToDo]
+- getTodos() : async [ToDo]
 Açıklama: Tüm görevleri döner.
 Dönüş Değeri: Görevlerin bir listesi ([ToDo]).
-- 3. completeTodo(id: Nat) : async ()
+- completeTodo(id: Nat) : async ()
 Açıklama: Belirtilen görevi tamamlar.
 Parametre:
 id: Tamamlanacak görevin kimliği (Nat).
-- 4. showTodos() : async Text
+- showTodos() : async Text
 Açıklama: Tüm görevleri kullanıcıya gösterir.
 Dönüş Değeri: Görevlerin metin olarak listesi (Text).
-- 5. clearCompleted() : async ()
+- clearCompleted() : async ()
 Açıklama: Tamamlanan görevleri temizler.
 
 ## Geliştirici Bilgileri
